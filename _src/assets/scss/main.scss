@@ -6,3 +6,76 @@ body {
 	margin: 0;
 	height: 100vh;
 }
+.container__page {
+  margin: 0;
+}
+
+.hero__container {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero__space {
+  height: 50%;
+}
+
+.hero__box-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.hero__title {
+  font-family: 'Roboto Slab', serif;
+  color: #ffffff;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hero__text {
+
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.hero__main {
+  background-color: lightgreen;
+}
+
+.hero__image {}
+
+.hero__hamburguer {
+  background-color: blue;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+/*<!-- HEADER -->*/
+
+.header__hamburguer {
+  background-color: blue;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  height: 44px;
+  width: 44px;
+}
+
+/*<!-- MAIN -->*/
+
+.main__container {
+  background-color: lightsalmon;
+}
+
+.main_looking {
+  background-color: aqua;
+}
