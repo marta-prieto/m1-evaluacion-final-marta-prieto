@@ -1,66 +1,70 @@
-@import 'core/settings';
-@import 'core/links';
+/*<!-- HERO -->*/
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
-}
 .container__page {
   margin: 0;
-}
+  }
 
-.hero__container {
+  .hero__container {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   height: 100vh;
-}
+  }
 
-.hero__space {
+  .hero__space {
   height: 50%;
-}
+  display: flex;
+  justify-content: space-between;
+  }
 
-.hero__box-title {
+  .hero__box-title {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
   align-items: center;
   height: 50%;
-}
+  }
 
-.hero__title {
+  .hero__title {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
   font-size: 42px;
   text-transform: uppercase;
   margin: 0;
-}
+  text-align: center;
+  width: 290px;
+  }
 
-.hero__text {
-
+  .hero__text {
+  top: 0;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 16px;
-}
+  }
 
-.hero__main {
-  background-color: lightgreen;
-}
+  .hero__scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  }
 
-.hero__image {}
 
-.hero__hamburguer {
-  background-color: blue;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 50;
-}
+ .circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 0 0 53px;
+ }
 
-/*<!-- HEADER -->*/
 
-.header__hamburguer {
+
+  /*<!-- HEADER -->*/
+
+  .header__hamburguer {
   background-color: blue;
   position: fixed;
   left: 0;
@@ -68,14 +72,15 @@ body {
   z-index: 50;
   height: 44px;
   width: 44px;
-}
+  border: none;
+  }
 
-/*<!-- MAIN -->*/
+  /*<!-- MAIN -->*/
 
-.main__container {
+  .main__container {
   background-color: lightsalmon;
-}
+  }
 
-.main_looking {
+  .main_looking {
   background-color: aqua;
-}
+  }
