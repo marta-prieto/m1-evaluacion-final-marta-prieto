@@ -35,7 +35,7 @@
 
 .hero__text {
   top: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 16px;
 }
@@ -83,7 +83,7 @@
 .looking__tips {
   height: 30px;
   margin: 30px 215px 0 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #8ccbea;
 }
@@ -106,12 +106,11 @@
 }
 
 .looking__paragraph {
-  font-family: 'Roboto', sans-serif ;
+  font-family: "Roboto", sans-serif;
   color: #4a4a4a;
   font-size: 18px;
-
 }
-  .looking__go {
+.looking__button {
   background-color: white;
   border-radius: 22.5px;
   height: 76px;
@@ -122,12 +121,19 @@
   color: #f26002;
   border: 2px solid #f26002;
   margin: 0 15px;
-    transition: color ease 0.8s,
-    border-color ease 0.8S;
-    &:hover {
-      color: black;
-    }
+  transition: color ease 0.8s;
+  &:hover {
+    color: black;
+  }
+}
 
+/*<!-- MAIN REASONS -->*/
+
+.reasons__menu {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 
@@ -138,4 +144,3 @@
 .main__container {
   background-color: purple;
 }
-
