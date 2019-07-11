@@ -2,53 +2,52 @@
 
 .container__page {
   margin: 0;
-  }
+}
 
-  .hero__container {
+.hero__container {
   background-image: url("../images/cover.jpg");
   background-size: cover;
   height: 100vh;
-  }
+}
 
-  .hero__space {
+.hero__space {
   height: 50%;
   display: flex;
   justify-content: space-between;
-  }
+}
 
-  .hero__box-title {
+.hero__box-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 50%;
-  }
+}
 
-  .hero__title {
-  font-family: 'Roboto Slab', serif;
+.hero__title {
+  font-family: "Roboto Slab", serif;
   color: #ffffff;
   font-size: 42px;
   text-transform: uppercase;
   margin: 0;
   text-align: center;
   width: 290px;
-  }
+}
 
-  .hero__text {
+.hero__text {
   top: 0;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   font-size: 16px;
-  }
+}
 
-  .hero__scroll-down {
+.hero__scroll-down {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-self: center;
-  }
+}
 
-
- .circle {
+.circle {
   width: 45px;
   height: 45px;
   border-radius: 50%;
@@ -58,14 +57,12 @@
   align-content: center;
   align-items: center;
   margin: 0 0 53px;
- }
+}
 
+/*<!-- HEADER -->*/
 
-
-  /*<!-- HEADER -->*/
-
-  .header__hamburguer {
-  background-color: blue;
+.header__hamburguer {
+  background-color: #0271bc;
   position: fixed;
   left: 0;
   top: 0;
@@ -73,14 +70,72 @@
   height: 44px;
   width: 44px;
   border: none;
-  }
+}
 
-  /*<!-- MAIN -->*/
+/*<!-- MAIN -->*/
 
-  .main__container {
-  background-color: lightsalmon;
-  }
+.looking__container {
+  margin: 0;
+  padding: o;
+  width: 100vh;
+}
 
-  .main_looking {
-  background-color: aqua;
-  }
+.looking__tips {
+  height: 30px;
+  margin: 30px 215px 0 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #8ccbea;
+}
+
+.looking__text {
+  width: 290px;
+}
+.looking__title {
+  height: 60px;
+  width: 290px;
+  margin: 0 0 15px;
+  font-family: "Roboto Slab", serif;
+  color: 000000;
+  font-size: 24px;
+}
+.looking__text {
+  height: 100%;
+  width: 290px;
+  margin: 0 15px 30px;
+}
+
+.looking__paragraph {
+  font-family: 'Roboto', sans-serif ;
+  color: #4a4a4a;
+  font-size: 18px;
+
+}
+  .looking__go {
+  background-color: white;
+  border-radius: 22.5px;
+  height: 76px;
+  width: 45px;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+  color: #f26002;
+  border: 2px solid #f26002;
+  margin: 0 15px;
+    transition: color ease 0.8s,
+    border-color ease 0.8S;
+    &:hover {
+      color: black;
+    }
+
+}
+
+
+
+
+
+
+.main__container {
+  background-color: purple;
+}
+
