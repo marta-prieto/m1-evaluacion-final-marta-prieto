@@ -1,3 +1,5 @@
+@import "core/_variables.scss";
+
 /*<!-- HERO -->*/
 
 .container__page {
@@ -25,7 +27,7 @@
 
 .hero__title {
   font-family: "Roboto Slab", serif;
-  color: #ffffff;
+  color: $color-white;
   font-size: 42px;
   text-transform: uppercase;
   margin: 0;
@@ -36,7 +38,7 @@
 .hero__text {
   top: 0;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: $color-white;
   font-size: 16px;
 }
 
@@ -47,14 +49,13 @@
   align-items: center;
   text-align: center;
   background-position: center;
-
 }
 
 .hero__circle {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: white;
+  background: $color-white;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -78,7 +79,7 @@
 /*<!-- HEADER -->*/
 
 .header__hamburguer {
-  background-color: #0271bc;
+  background-color: $color-blue;
   position: fixed;
   left: 0;
   top: 0;
@@ -102,7 +103,7 @@
   margin: 30px 215px 0 15px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  color: #8ccbea;
+  color: $color-light-blue;
 }
 
 .looking__title {
@@ -119,19 +120,19 @@
 
 .looking__paragraph {
   font-family: "Roboto", sans-serif;
-  color: #4a4a4a;
+  color: $color-grey;
   font-size: 18px;
 }
 .looking__button {
-  background-color: white;
+  background-color: $color-white;
   border-radius: 22.5px;
   height: 45px;
   width: 91px;
   text-decoration: none;
   padding: 25px;
   font-size: 20px;
-  color: #f26002;
-  border: 2px solid #f26002;
+  color: $color-orange;
+  border: 2px solid $color-orange;
   margin: 0 15px 75px;
   transition: transform ease 0.3s, border-radius ease 0.4s;
   &:hover {
@@ -140,7 +141,7 @@
   }
   transition: color ease 0.8s;
   &:hover {
-    color: black;
+    color: $color-black;
   }
 }
 
@@ -153,13 +154,14 @@
   .looking__text {
     width: 690px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
   .looking__paragraph {
     margin: 0;
-
   }
+
   .looking__button {
     display: flex;
     flex-direction: column;
@@ -196,8 +198,8 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: #f26002;
-  color: white;
+  background-color: $color-orange;
+  color: $color-white;
   transition: transform ease 0.4s, border-radius ease 0.4s;
   &:hover {
     transform: rotate(360deg);
@@ -233,7 +235,7 @@
 }
 .paragraph__1 {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: $color-black;
   font-size: 18px;
 }
 
@@ -251,7 +253,7 @@
 
 .paragraph__2 {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: $color-black;
   font-size: 18px;
 }
 
@@ -269,7 +271,7 @@
 
 .paragraph__3 {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: $color-black;
   font-size: 18px;
 }
 
@@ -327,10 +329,10 @@
 .footer__container {
   margin: 0;
   background-color: #304268;
-  color: white;
+  color: $color-white;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1 fr 1 fr;
+  grid-template-rows: 1fr 1 fr 1fr;
   grid-gap: 30px;
   display: flex;
   flex-direction: column;
@@ -355,7 +357,7 @@
 
 .footer__link {
   text-decoration: none;
-  color: white;
+  color: $color-white;
 }
 .footer__media {
   text-transform: uppercase;
@@ -378,40 +380,43 @@
 .footer__message {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
-
 }
 
 .footer__circle {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: white;
+  background: $color-white;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   margin: 0;
   transform: translateY(-50%);
-  background-color: white;
+  background-color: $color-white;
 }
 
 .hearth {
-  color: #f26002;
+  color: $color-orange;
 }
 
 @media all and (min-width: 768px) {
-
   .footer__bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     order: -1;
   }
   .footer__tablet {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    transform: translateX(-100px);
+    transform: translateY(20px);
   }
-
+  .footer__media {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
 }
-
