@@ -1,0 +1,78 @@
+[33mcommit f309ab1ffe7565cc7eb9c1cc717f2edacc5b5d6e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: f8b7616 6e795a5
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Wed Jul 24 20:08:41 2019 +0200
+
+    Merge branch 'rama-final'
+
+[33mcommit 6e795a525a7096d967eca099b3d49b437c7ba5e4[m[33m ([m[1;31morigin/rama-final[m[33m, [m[1;32mrama-final[m[33m)[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Wed Jul 24 20:07:23 2019 +0200
+
+    result issues
+
+[33mcommit f8b76164b60d3d8affa98356e1c70f944ebbf863[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 14:30:49 2019 +0200
+
+    add docs
+
+[33mcommit 1225f83326a99aab56e4bd281e137752db91208f[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 14:26:04 2019 +0200
+
+    final html and scss
+
+[33mcommit dd6a0da21b7c41c24bb05e1aa7030bfbbee6ec25[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 13:14:21 2019 +0200
+
+    fix
+
+[33mcommit fba34d39089c873da9867cb68eb8a3e4d0b8426e[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 11:31:37 2019 +0200
+
+    footer
+
+[33mcommit 530eaa77716f65cc5c60c3cde9ab323f74533482[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 02:08:16 2019 +0200
+
+    main added
+
+[33mcommit f6b3d00653401aba1708974b6ba0cdb9507e9ddd[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 01:30:39 2019 +0200
+
+    add html full main
+
+[33mcommit c839862407bf41256036ec74baaaa0c71aeb7cf6[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Fri Jul 12 00:48:48 2019 +0200
+
+    header and almost main
+
+[33mcommit b1fcbfa9432fdcbb29fe8ec2f0747b3876e0060d[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Thu Jul 11 21:18:05 2019 +0200
+
+    almost hero
+
+[33mcommit 55206ea32c9f60493fd47daa0a342beed3580554[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Thu Jul 11 14:59:06 2019 +0200
+
+    add docs folder
+
+[33mcommit b14219dc4f83d9da370e2501bb6ff904af0106a5[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Thu Jul 11 14:44:43 2019 +0200
+
+    hero copy
+
+[33mcommit b0a7c4efd143b1c06d33b210b2e02387f3ef55ad[m
+Author: Marta Prieto <martaprietoluque@gmail.com>
+Date:   Thu Jul 11 14:41:44 2019 +0200
+
+     fix hero
